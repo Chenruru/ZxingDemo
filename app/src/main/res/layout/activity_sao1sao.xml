@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <FrameLayout android:layout_height="match_parent" android:layout_width="match_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <RelativeLayout android:layout_height="match_parent" android:layout_width="match_parent">
+
+    <SurfaceView android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_gravity="center" android:id="@+id/preview_view"/>
+
+    <test.bwie.com.zxingdemo.view.ViewfinderView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/viewfinder_view"/>
+
+    <include android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/include1" layout="@layout/activity_sao1sao_title" android:layout_alignParentTop="true"/>
+
+</RelativeLayout>
+
+</FrameLayout>
